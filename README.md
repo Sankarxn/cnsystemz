@@ -1,16 +1,30 @@
-# React + Vite
+# CN Systemz Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive landing page developed for **CN Systemz**, a computer sales and service center located in **Nileswar, Kasaragod**.  
 
-Currently, two official plugins are available:
+This project was created to help the business establish an online presence and showcase their services in a professional way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+- Responsive design for all devices  
+- Clean and user-friendly UI  
+- Fast loading performance  
+- Service showcase section  
+- Product listing section  
+- Professional business landing page layout  
 
-## React Compiler
+## 🛠️ Tech Stack
+- REACT
+- CSS  
+- JavaScript  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Project Purpose
+CN Systemz wanted a simple yet effective website where customers could easily learn about their computer sales and repair services.  
 
-## Expanding the ESLint configuration
+This landing page helps the business:
+- Build credibility online  
+- Showcase products and services  
+- Improve customer reach  
+- Provide easy contact access  
+ 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Feel free to connect for web development projects.
