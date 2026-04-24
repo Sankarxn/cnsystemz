@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import Gamingpc from '../assets/works/GamingPC.jpg';
+import Gamingpc from '../assets/works/Gamingpc.jpg';
 import Datastore from '../assets/works/datarestore.jpg';
 import CCtv from '../assets/works/HDsecuritycamera.jpg';
 import Wifi from '../assets/works/wifi.jpg';  
