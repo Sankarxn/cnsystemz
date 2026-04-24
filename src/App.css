@@ -1,0 +1,164 @@
+/* Global Utility Classes for Cn Systemz */
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.text-accent-weight {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.max-w-600 {
+  max-width: 600px;
+}
+
+.max-w-450 {
+  max-width: 450px;
+}
+
+.max-w-300 {
+  max-width: 300px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.h-350 {
+  height: 350px;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.btn-height-standard {
+  height: 54px;
+}
+
+.bg-dark-gray {
+  background: #1a1a1a;
+}
+
+.bg-very-dark {
+  background: #0d0d0d;
+}
+
+.img-luminosity {
+  mix-blend-mode: luminosity;
+}
+
+.img-smooth-transition {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.img-scale-hover:hover {
+  transform: scale(1.05);
+}
+
+.overlay-gradient {
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+}
+
+.glass-badge {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px);
+}
+
+.border-glass-top {
+  border-top: 1px solid var(--glass-border);
+}
+
+.border-glass-full {
+  border: 1px solid var(--glass-border);
+}
+
+.border-glass-color {
+  border-color: var(--glass-border) !important;
+}
+
+.font-size-sm {
+  font-size: 0.9rem;
+}
+
+.product-card-btn {
+  background: rgba(255,255,255,0.05);
+  color: var(--text-primary);
+  transition: background 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.product-card-btn:hover {
+  background: rgba(255,255,255,0.1) !important;
+}
+
+.flex-center-inline {
+  display: inline-flex;
+  align-items: center;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Glass Card Styles */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.glass-card-img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Subtle Gradient Border Shimmer Overlay */
+.shimmer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 200%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.glass-card:hover .shimmer-overlay {
+  opacity: 1;
+  animation: shimmer-anim 3s linear infinite;
+}
+
+@keyframes shimmer-anim {
+  0% { background-position: -200% -200%; }
+  100% { background-position: 200% 200%; }
+}
