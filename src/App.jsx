@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import Lenis from 'lenis';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import LatestWorks from './components/LatestWorks';
-import ProductListing from './components/ProductListing';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar.jsx';
+import Hero from './components/Hero.jsx';
+import About from './components/About.jsx';
+import Services from './components/Services.jsx';
+import LatestWorks from './components/LatestWorks.jsx';
+import ProductListing from './components/ProductListing.jsx';
+import Footer from './components/Footer.jsx';
 import './App.css';
 
 function App() {
